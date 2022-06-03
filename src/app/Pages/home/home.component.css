@@ -1,0 +1,66 @@
+/* Section 1 */
+
+.main_home_section {
+    background: #f5f8ff;
+}
+
+.data_shifting_text {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.data_shifting_text h3 {
+    font-size: 50px;
+    color: #266adc;
+    font-weight: 600;
+}
+
+.data_shifting_text p {
+    font-size: 16px;
+    color: #266adc;
+    font-weight: 500;
+}
+
+.data_shifting_text span {
+    color: orange;
+}
+
+.data_shifting_text .button_container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.plans_btn {
+    padding: 0px 50px;
+    background: #266adc;
+    color: #fff;
+    border-style: none;
+    border-radius: 23px;
+    font-size: 15px;
+}
+
+.start_btn {
+    padding: 5px 50px;
+    background-color: transparent;
+    color: #266adc;
+    border: 1px solid #266adc;
+    border-radius: 23px;
+    font-size: 15px;
+}
+
+.data_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.data_image_container img {
+    max-width: 100%;
+}
