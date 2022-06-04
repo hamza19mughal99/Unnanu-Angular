@@ -13,6 +13,7 @@ import { ServingComponent } from './Pages/serving/serving.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { NavbarComponent } from './SharePages/navbar/navbar.component';
 import { FooterComponent } from './SharePages/footer/footer.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './SharePages/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

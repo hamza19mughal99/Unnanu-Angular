@@ -1,0 +1,137 @@
+.footer_main{
+    background: #f5f8ff;
+    padding-top: 30px;
+}
+
+.footer_about img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.footer_about h5{
+    color: #194fa8;
+    font-size: 22px;
+}
+
+.footer_about p{
+    color: #194fa8;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.quick_links h5{
+    color: #194fa8;
+    font-size: 25px;
+}
+
+.quick_links ul li{
+    list-style-type: none;
+    color: #194fa8;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.Subscribe_section h5{
+    color: #194fa8;
+    font-size: 25px;
+}
+
+.Subscribe_section p{
+    color: #194fa8;
+}
+
+.Subscribe_section input{
+    line-height: 2;
+    outline: none;
+    border: 1px solid #EBEBEB;
+}
+
+.Subscribe_section input::placeholder{
+    padding-left: 5px;
+}
+
+.Subscribe_section button{
+    background-color: #1B54B4;
+    color: #fff;
+    padding: 0px 25px;
+    border: none;
+    outline: none;
+    line-height: 2;
+    padding-top: 1px;
+}
+
+.footer_social img{
+    width: 35px;
+    margin-right: 10px;
+}
+
+
+.reserved_section{
+    background: #194fa8;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.reserved_section p{
+    margin-bottom: 0;
+}
+
+.cookies_section p{
+    margin-bottom: 0;
+}
+
+.cookies_section{
+    padding: 15px 0;
+}
+
+.cookie_btn{
+    background: #194fa8;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.want_know{
+    background: #fff;
+    color: #194fa8;
+    padding: 7px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.policy_btn{
+    background: transparent;
+    color: #194fa8;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.quick_links ul{
+    padding-left: 0;
+}
+
+
+@media (max-width: 767px) {
+    .footer_about .footer_about_texting{
+        margin-bottom: 50px;
+    }
+
+    .quick_links{
+        margin-bottom: 30px;
+    }
+
+    .cookie_btn{
+        margin: 20px 0;
+    }
+}
