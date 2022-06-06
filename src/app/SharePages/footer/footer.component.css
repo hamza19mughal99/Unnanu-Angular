@@ -31,6 +31,11 @@
     font-weight: 500;
 }
 
+.quick_links ul li a{
+    text-decoration: none;
+    color: #194fa8;
+}
+
 .Subscribe_section h5{
     color: #194fa8;
     font-size: 25px;
@@ -63,6 +68,7 @@
 .footer_social img{
     width: 35px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 
@@ -101,7 +107,7 @@
     color: #194fa8;
     padding: 7px 15px;
     border-radius: 25px;
-    border: none;
+    border: 1px solid #194fa8;
     outline: none;
     font-weight: 600;
     font-size: 14px;

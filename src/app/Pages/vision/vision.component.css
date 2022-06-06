@@ -1,0 +1,126 @@
+/* ----- vision ----  */
+
+.vision_section {
+    padding: 50px 0;
+}
+
+.new_vision_text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.new_vision_text h3 {
+    color: #1b54b4;
+    font-size: 40px;
+}
+
+.new_vision_text p {
+    font-size: 18px;
+}
+
+.focus_problem_container {
+    background: #1b54b3;
+    color: white;
+    padding: 70px 0;
+    border-radius: 82px 0px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.focus_problem_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.focus_problem_text img {
+    width: 120px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.focus_problem_text p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.fa-triangle-exclamation {
+    color: white !important;
+    font-size: 110px;
+}
+
+.focus_solution_container {
+    border-radius: 82.72px 0px;
+    background: #ffb900;
+    color: #000;
+    padding: 70px 0;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.focus_solution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 290px;
+}
+
+.focus_solution img {
+    width: 120px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.focus_solution p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.focus_vision_container {
+    background: #1b54b3;
+    border-radius: 82.72px 0px;
+    color: #fff;
+    padding: 70px 0;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.focus_vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 290px;
+}
+
+.focus_vision img {
+    width: 120px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.focus_vision p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+
+    /* ------------ vision ------------  */
+    .new_vision_text h3 {
+        font-size: 35px;
+    }
+
+    .new_vision_text p {
+        font-size: 16px;
+    }
+}

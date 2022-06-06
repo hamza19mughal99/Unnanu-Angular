@@ -1,0 +1,95 @@
+/* ---------- blogs --------------  */
+
+.blogs_main {
+    margin: 50px 0;
+}
+
+.latest_blogs_container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.latest_blogs_container h3 {
+    color: #1b54b4;
+    font-size: 40px;
+}
+
+.latest_blogs_container p {
+    font-size: 18px;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #1b54b4;
+    font-size: 17px;
+}
+
+.card_btn {
+    padding: 5px 35px;
+    background: #194fa8;
+    color: #fff;
+    border-style: none;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card-text small{
+    cursor: pointer;
+}
+
+.card_image_container {
+    position: relative;
+}
+
+.overlay_btn_container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+
+.fa-angle-right {
+    font-size: 10px;
+}
+
+.card-body img {
+    margin-right: 7px;
+    width: 13px;
+}
+
+.card-body .arrow_img {
+    margin-right: 7px;
+    width: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.card-body small {
+    font-size: 11px;
+}
+
+@media (max-width: 767px) {
+
+    /* --------------------- blogs --------------------------- */
+
+    .latest_blogs_container h3 {
+        font-size: 35px;
+    }
+
+    .latest_blogs_container p {
+        font-size: 16px;
+    }
+}
