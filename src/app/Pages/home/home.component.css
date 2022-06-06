@@ -5,7 +5,7 @@
 }
 
 .data_shifting_text {
-    padding: 10px 20px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,7 +25,8 @@
 }
 
 .data_shifting_text span {
-    color: #ffb800;;
+    color: #ffb800;
+    ;
 }
 
 .data_shifting_text .button_container {
@@ -47,7 +48,7 @@
     border: 1px solid #266adc;
 }
 
-.plans_btn:hover{
+.plans_btn:hover {
     background: transparent;
     border: 1px solid #266adc;
     color: #266adc;
@@ -63,7 +64,7 @@
     transition: all 0.5s ease;
 }
 
-.start_btn:hover{
+.start_btn:hover {
     background: #266adc;
     color: #fff;
 }
@@ -80,6 +81,27 @@
 }
 
 
+#spin {
+    color: #ffb800;
+}
+
+#spin:after {
+    content: "Data";
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% { 
+        content:"Data";
+    }
+    50% {
+        content: "Content";
+    }
+    100% {
+        content: "Media"
+    }
+  }
+
 
 
 @media (max-width: 767px) {
@@ -90,19 +112,20 @@
         height: auto;
     }
 
-    .data_shifting_text h3{
+    .data_shifting_text h3 {
         font-size: 30px;
     }
 
-    .data_shifting_text p{
+    .data_shifting_text p {
         font-size: 15px;
     }
 
-    .plans_btn, .start_btn{
+    .plans_btn,
+    .start_btn {
         padding: 5px 20px;
     }
 
-    .data_image_container{
+    .data_image_container {
         height: auto;
         padding: 20px 0;
     }

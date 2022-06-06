@@ -5,11 +5,23 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './case-studies.component.html',
   styleUrls: ['./case-studies.component.css']
 })
-export class CaseStudiesComponent implements OnInit {
+// export class CaseStudiesComponent implements OnInit {
 
-  constructor() { }
+//   constructor() { }
 
-  ngOnInit(): void {
+//   ngOnInit(): void {
+//   }
+
+//   tabChange(ids)
+
+// }
+
+export class CaseStudiesComponent {
+  
+  
+  id:any = 'heard';
+  tabChange(ids: any){
+    this.id = ids
   }
 
 }

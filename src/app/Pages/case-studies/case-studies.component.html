@@ -11,25 +11,47 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="case_studies">
-                            <div class="mb-5">
+                            <div class="mb-5 tab_div" id="heard" (click)="tabChange('heard')">
                                 <h3>HEARD LABS</h3>
                                 <p>RESTAURANT TECHNLOGY REIMAGINED</p>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-5 tab_div" id="Pearson" (click)="tabChange('pearson')">
                                 <h3>PEARSON</h3>
                                 <p>HIGHER EDUCATION ENROLLMENT & ONBOARDING</p>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-5 tab_div" id="brand" (click)="tabChange('brand')">
                                 <h3>BRAND BUZZ</h3>
                                 <p>GAMIFIED SALES TRAINING TOOL</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="case_studies_stop_sifting">
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'heard'">
                             <h3>Stop Data Sifting and Start Data Scoring</h3>
                             <p>Harness the power of artifical intelligence and machine learning to identify your most
                                 qualified and matched content instantly.</p>
+
+                            <div>
+                                <button class="plans_btn">See Plans</button>
+                                <button class="start_btn">Start for Free</button>
+                            </div>
+                        </div>
+
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'pearson'">
+                            <h3>Stop Data Sifting</h3>
+                            <p>Harness the power of artifical intelligence
+                                qualified and matched content instantly.</p>
+
+                            <div>
+                                <button class="plans_btn">See Plans</button>
+                                <button class="start_btn">Start for Free</button>
+                            </div>
+                        </div>
+
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'brand'">
+                            <h3>Stop Data Sifting and Start</h3>
+                            <p>Harness the power of artifical intelligence and machine learning to identify your most
+                                </p>
 
                             <div>
                                 <button class="plans_btn">See Plans</button>
