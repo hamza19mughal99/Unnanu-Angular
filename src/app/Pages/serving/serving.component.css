@@ -1,15 +1,18 @@
 /* ------------------ serving ------------------ */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
 .serving_main {
     margin: 50px 0;
 }
 
 .serving_main h3 {
-    text-align: center;
-    margin-bottom: 50px;
+    font-size: 46px;
     color: #1b54b4;
-    font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 56px;
+    text-align: center;
 }
 
 .serving_main img {

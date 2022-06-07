@@ -1,5 +1,7 @@
 /* home */
 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
 .main_home_section {
     background: #f5f8ff;
 }
@@ -13,27 +15,20 @@
 }
 
 .data_shifting_text h3 {
-    font-size: 50px;
+    font-size: 59px;
     color: #266adc;
     font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .data_shifting_text p {
-    font-size: 16px;
+    font-size: 18px;
     color: #266adc;
     font-weight: 500;
 }
 
 .data_shifting_text span {
     color: #ffb800;
-    ;
-}
-
-.data_shifting_text .button_container {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 10px;
 }
 
 
@@ -46,6 +41,7 @@
     font-size: 15px;
     transition: all 0.5s ease;
     border: 1px solid #266adc;
+    margin-right: 10px;
 }
 
 .plans_btn:hover {
@@ -87,21 +83,51 @@
 
 #spin:after {
     content: "Data";
-    animation: spin 4s linear infinite;
+    animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
-    0% { 
-        content:"Data";
+    0% {
+        content: "Data";
     }
+
     50% {
         content: "Content";
     }
+
     100% {
         content: "Media"
     }
-  }
+}
 
+
+@media (max-width: 1200px) {
+
+    /* -------- home ---------  */
+    .data_shifting_text {
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    .data_shifting_text h3 {
+        font-size: 30px;
+    }
+
+    .data_shifting_text p {
+        font-size: 15px;
+    }
+
+    .plans_btn,
+    .start_btn {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .data_image_container {
+        height: auto;
+        padding: 20px 0;
+    }
+}
 
 
 @media (max-width: 767px) {

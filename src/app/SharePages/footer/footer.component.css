@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'NoirPro';
+    src: url('../../../assets/fonts/NoirPro-Medium.woff2') format('woff2'),
+        url('../../../assets/fonts/NoirPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
 .footer_main{
     background: #f5f8ff;
     padding-top: 30px;
@@ -10,35 +22,42 @@
 
 .footer_about h5{
     color: #194fa8;
-    font-size: 22px;
+    font-size: 21px;
+    font-family: 'NoirPro';
 }
 
 .footer_about p{
     color: #194fa8;
-    opacity: 0.8;
+    opacity: 0.6;
     margin-bottom: 20px;
+    font-family: 'NoirPro';
+    font-size: 15px;
 }
 
 .quick_links h5{
     color: #194fa8;
     font-size: 25px;
+    font-family: 'NoirPro';
 }
 
 .quick_links ul li{
     list-style-type: none;
     color: #194fa8;
-    margin-bottom: 10px;
-    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .quick_links ul li a{
     text-decoration: none;
     color: #194fa8;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 .Subscribe_section h5{
     color: #194fa8;
     font-size: 25px;
+    font-family: 'NoirPro';
 }
 
 .Subscribe_section p{
@@ -65,6 +84,10 @@
     padding-top: 1px;
 }
 
+.link_head{
+    font-family: 'NoirPro';
+}
+
 .footer_social img{
     width: 35px;
     margin-right: 10px;
@@ -85,6 +108,7 @@
 
 .cookies_section p{
     margin-bottom: 0;
+    font-size: 15px;
 }
 
 .cookies_section{
@@ -127,6 +151,15 @@
     padding-left: 0;
 }
 
+@media (max-width: 1200px) {
+    .cookie_btn{
+        margin-right: 0;
+    }
+    .Subscribe_section button{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
 
 @media (max-width: 767px) {
     .footer_about .footer_about_texting{

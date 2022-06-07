@@ -2,9 +2,6 @@
 <section class="testimonial_section" id="testimonial">
     <div class="testimonial_heading">
         <h3>What Customer Saying</h3>
-        <!-- <p>Perspiciatis unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem
-            aperiam, eaque <br />
-            ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> -->
     </div>
     <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
         <div ngxSlickItem *ngFor="let slide of slides" class="slide">
@@ -16,7 +13,7 @@
                     <img src={{slide.img}} alt="testimonial" />
                     <h5>{{slide.name}}</h5>
                 </div>
-                
+
             </div>
         </div>
     </ngx-slick-carousel>

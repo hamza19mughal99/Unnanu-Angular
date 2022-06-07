@@ -1,5 +1,7 @@
 /* ------- case studies -------  */
 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+
 .case_studies_main {
     background: #f7f8fe;
     margin: 50px 0;
@@ -12,33 +14,44 @@
 
 .case_studies_head_container h3 {
     color: #1b54b4;
-    font-size: 40px;
+    font-size: 46px;
+    font-family: 'Frank Ruhl Libre', serif;
+    line-height: 56px;
+    font-weight: 700;
 }
 
 .case_studies_head_container p {
     font-size: 18px;
+    line-height: 24px;
+    color: #404041;
 }
 
 .case_studies h3 {
     color: #1b54b4;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .case_studies p {
     color: #1b54b4;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .case_studies_stop_sifting h3 {
     color: #1b54b4;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 10px;
+    line-height: 33px;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .case_studies_stop_sifting p {
     color: #404041;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
 }
 
 .case_studies_image_container img {
@@ -51,24 +64,25 @@
 }
 
 .plans_btn {
-    padding: 5px 50px;
-    background: #266adc;
+    padding: 4px 40px;
+    background: #1b54b4;
     color: #fff;
     border-style: none;
     border-radius: 23px;
-    border: 1px solid #266adc;
-    font-size: 15px;
+    border: 1px solid #1b54b4;
+    font-size: 16px;
     transition: all 0.5s ease;
 }
 
 .start_btn {
-    padding: 5px 50px;
+    padding: 4px 40px;
     background-color: transparent;
-    color: #266adc;
-    border: 1px solid #266adc;
+    color: #1b54b4;
+    border: 1px solid #1b54b4;
     border-radius: 23px;
     font-size: 15px;
     transition: all 0.5s ease;
+    font-weight: 700;
 }
 
 .tab_div{
@@ -87,6 +101,32 @@
 }
 
 
+@media (max-width: 1200px) {
+    .case_studies h3{
+        font-size: 20px;
+    }
+
+    .case_studies p{
+        font-size: 12px;
+    }
+
+    .case_studies_stop_sifting h3{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .case_studies_stop_sifting p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .plans_btn, .start_btn{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}
+
 
 @media (max-width: 767px) {
     /* ------------------ case studies -----------------  */
@@ -96,7 +136,7 @@
     }
 
     .case_studies_head_container p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .case_studies {

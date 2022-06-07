@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
 
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
-    font-family: 'Frank Ruhl Libre', serif;
+body {
+    font-family: 'Lato', sans-serif;
 }

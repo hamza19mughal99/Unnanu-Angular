@@ -1,5 +1,7 @@
 /* ------ about ------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+
 .about_main {
     padding: 50px 0;
 }
@@ -18,8 +20,10 @@
 
 .aboutus_text_container h3 {
     margin-bottom: 20px;
-    font-size: 45px;
+    font-size: 46px;
     color: #1b54b4;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
 }
 
 
@@ -34,17 +38,17 @@
 .aboutus_text_container p {
     color: #404041;
     font-size: 19px;
+    line-height: 23px;
 }
 
 .about_btn {
     background: #1b54b3;
     color: #fff;
-    border: none;
-    outline: none;
-    padding: 3px 45px;
+    padding: 5px 50px;
     border-radius: 20px;
     border: 1px solid #266adc;
     transition: all 0.5s ease;
+    font-size: 15px;
 }
 
 .about_btn:hover{
@@ -54,10 +58,22 @@
 }
 
 
+@media (max-width: 1200px) {
+    .aboutus_text_container p {
+        font-size: 15px;
+    }
+
+    .about_btn {
+        padding: 5px 30px;
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 767px) {
     /* --------------- about --------------  */
 
     .about_btn {
         padding: 5px 30px;
+        font-size: 12px;
     }
 }

@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../../../assets/fonts/GothamRounded-Medium.woff2') format('woff2'),
+        url('../../../assets/fonts/GothamRounded-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 .navbar {
     height: 80px;
 }
 
 .navbar-nav .nav-item {
     font-size: 12px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
-
-.logo {
-    display: flex;
-    justify-content: center;
+.logo img{
+    max-width: 180px;
 }
 
 .navbar-collapse{
@@ -24,20 +31,18 @@
     border-style: none;
     border-radius: 14.55px;
     background: #ffb900;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham Rounded';
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
     text-align: left;
     color: #fff;
-    padding: 5px 25px;
-    letter-spacing: 2px;
-
+    padding: 4px 30px;
 }
 
 .navbar-nav a {
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-family: 'Gotham Rounded';
     font-size: 12px;
     line-height: 18px;
     text-align: left;
