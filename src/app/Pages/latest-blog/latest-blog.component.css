@@ -26,7 +26,7 @@
 }
 
 .card {
-    width: 20rem;
+    width: 16rem;
     margin-bottom: 20px;
     padding: 10px;
     border: rgb(0 0 0 / 6%);
@@ -35,7 +35,7 @@
 
 .card-title {
     color: #1b54b4;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 25px;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 700;
@@ -53,7 +53,7 @@
 }
 
 .card-text {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
     color: #3f3f3fce;
 }

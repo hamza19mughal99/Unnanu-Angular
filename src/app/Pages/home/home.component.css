@@ -19,6 +19,18 @@
     color: #266adc;
     font-weight: 600;
     font-family: 'Frank Ruhl Libre', serif;
+    display: flex;
+}
+
+.data_shifting_text .main_name{
+    color: #ffb800;
+}
+
+.data_shifting_text h4{
+    font-size: 59px;
+    color: #266adc;
+    font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .data_shifting_text p {
@@ -27,9 +39,6 @@
     font-weight: 500;
 }
 
-.data_shifting_text span {
-    color: #ffb800;
-}
 
 
 .plans_btn {
@@ -101,6 +110,65 @@
 }
 
 
+.swipe_word {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.swipe_word ul li {
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #ffb800;
+    font-weight: 700;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+
+.flip3 {
+    animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+    padding-left: 0;
+}
+
+@keyframes flip3 {
+    0% {
+        margin-top: -270px;
+    }
+
+    5% {
+        margin-top: -180px;
+    }
+
+    33% {
+        margin-top: -180px;
+    }
+
+    38% {
+        margin-top: -90px;
+    }
+
+    66% {
+        margin-top: -90px;
+    }
+
+    71% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -270px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     /* -------- home ---------  */
@@ -110,7 +178,8 @@
     }
 
     .data_shifting_text h3 {
-        font-size: 30px;
+        font-size: 25px;
+        height: 35px;
     }
 
     .data_shifting_text p {
@@ -139,7 +208,7 @@
     }
 
     .data_shifting_text h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .data_shifting_text p {

@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 d-flex align-items-center">
-                <div class="row">
+                <div class="row" style="overflow: hidden;">
                     <div class="col-md-5">
                         <div class="case_studies">
                             <div class="mb-5 tab_div" id="heard" (click)="tabChange('heard')">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'heard'">
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'heard'" data-aos="zoom-in" data-aos-duration="1000">
                             <h3>Stop Data Shifting and Start Data Scoring</h3>
                             <p>Harness the power of artifical intelligence and machine learning to identify your most
                                 qualified and matched content instantly.</p>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
 
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'pearson'">
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'pearson'" data-aos="zoom-in" data-aos-duration="1000">
                             <h3>Stop Data Shifting</h3>
                             <p>Harness the power of artifical intelligence
                                 qualified and matched content instantly.</p>
@@ -48,7 +48,7 @@
                             </div>
                         </div>
 
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'brand'">
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'brand'" data-aos="zoom-in" data-aos-duration="1000">
                             <h3>Stop Data Shifting and Start</h3>
                             <p>Harness the power of artifical intelligence and machine learning to identify your most
                                 </p>
@@ -62,7 +62,13 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="case_studies_image_container">
+                <div class="case_studies_image_container" *ngIf="id === 'heard'" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="../../../assets/case-studies.png" alt="case-studies" />
+                </div>
+                <div class="case_studies_image_container" *ngIf="id === 'pearson'" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="../../../assets/case-studies.png" alt="case-studies" />
+                </div>
+                <div class="case_studies_image_container" *ngIf="id === 'brand'" data-aos="zoom-in" data-aos-duration="1000">
                     <img src="../../../assets/case-studies.png" alt="case-studies" />
                 </div>
             </div>

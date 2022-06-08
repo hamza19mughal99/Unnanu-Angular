@@ -1,19 +1,26 @@
 /* -------------------- contact ----------------- */
 
 .contact_main {
-    margin: 50px 0;
+    padding: 70px 0;
+    background-color: #F6F7F9;
 }
 
-.social_section {
+.social_sections {
     background-color: #1B54B4;
     color: #fff;
     padding: 50px 15px;
 }
 
-.social_section h4 {
+.social_sections h4 {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.social_sections h5{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
 }
 
 .subscribe_form{
@@ -24,12 +31,14 @@
     color: #1A53B4;
     font-size: 25px;
     font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .subscribe_form h4 {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .form-control {
@@ -93,11 +102,11 @@
 
 
 @media (max-width: 1200px) {
-    .social_section h4 {
+    .social_sections h4 {
         font-size: 20px;
     }
 
-    .social_section h5 {
+    .social_sections h5 {
         font-size: 16px;
     }
 

@@ -25,6 +25,7 @@
 .navbar-collapse{
     background-color: #fff;
     padding: 20px;
+    z-index: 3;
 }
 
 .navbar-nav button {
@@ -49,7 +50,19 @@
     color: #266adc;
 }
 
+a.dropdown-item:active{
+    color: #266adc !important;
+    background-color: #fff !important;
+}
+
 .nav-item button a{
     text-decoration: none !important;
     color: #fff;
+}
+
+
+@media (max-width: 1200px) {
+    .navbar-nav a{
+        font-size: 11px;
+    }
 }
