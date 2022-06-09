@@ -10,6 +10,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.aboutus_image_container p{
+    margin-bottom: 0;
+    color: #1b54b4;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.aboutus_image_container p .AI{
+    color: #5AB186;
+}
+
+.aboutus_image_container p .ML{
+    color: #ffb800;
 }
 
 .aboutus_image_container img {

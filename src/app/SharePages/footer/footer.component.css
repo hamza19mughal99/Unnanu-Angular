@@ -1,6 +1,7 @@
 .footer_main{
     background: #f5f8ff;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .footer_about img{
@@ -171,7 +172,7 @@
     }
 
     .cookies_section p{
-        font-size: 15px;
+        font-size: 14px;
         padding: 10px;
     }
 

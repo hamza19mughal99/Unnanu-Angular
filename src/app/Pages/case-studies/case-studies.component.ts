@@ -17,7 +17,7 @@ export class CaseStudiesComponent implements OnInit {
     AOS.init();
   }
 
-  id:any = 'heard';
+  id:any = 'data';
   tabChange(ids: any){
     this.id = ids
   }

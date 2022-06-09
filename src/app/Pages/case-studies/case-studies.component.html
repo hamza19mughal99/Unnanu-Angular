@@ -11,25 +11,25 @@
                 <div class="row" style="overflow: hidden;">
                     <div class="col-md-5">
                         <div class="case_studies">
-                            <div class="mb-5 tab_div" id="heard" (click)="tabChange('heard')">
-                                <h3>HEARD LABS</h3>
-                                <p>RESTAURANT TECHNLOGY REIMAGINED</p>
+                            <div class="mb-5 tab_div" id="data" (click)="tabChange('data')">
+                                <h3>Data</h3>
+                                <p>DATA SHIFTING AND DATA SCORING</p>
                             </div>
-                            <div class="mb-5 tab_div" id="Pearson" (click)="tabChange('pearson')">
-                                <h3>PEARSON</h3>
-                                <p>HIGHER EDUCATION ENROLLMENT & ONBOARDING</p>
+                            <div class="mb-5 tab_div" id="media" (click)="tabChange('media')">
+                                <h3>Media</h3>
+                                <p>MEDIA SHIFTING AND MEDIA SCORING</p>
                             </div>
-                            <div class="mb-5 tab_div" id="brand" (click)="tabChange('brand')">
-                                <h3>BRAND BUZZ</h3>
-                                <p>GAMIFIED SALES TRAINING TOOL</p>
+                            <div class="mb-5 tab_div" id="content" (click)="tabChange('content')">
+                                <h3>Content</h3>
+                                <p>CONTENT SHIFTING AND CONTENT SCORING</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'heard'" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'data'" data-aos="zoom-in"
+                            data-aos-duration="1000">
                             <h3>Stop Data Shifting and Start Data Scoring</h3>
-                            <p>Harness the power of artifical intelligence and machine learning to identify your most
-                                qualified and matched content instantly.</p>
+                            <p>Stop Data Shifting and Start Data Scoring</p>
 
                             <div>
                                 <button class="plans_btn">See Plans</button>
@@ -37,10 +37,10 @@
                             </div>
                         </div>
 
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'pearson'" data-aos="zoom-in" data-aos-duration="1000">
-                            <h3>Stop Data Shifting</h3>
-                            <p>Harness the power of artifical intelligence
-                                qualified and matched content instantly.</p>
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'media'" data-aos="zoom-in"
+                            data-aos-duration="1000">
+                            <h3>Stop Media Shifting and Start Media Scoring</h3>
+                            <p>Stop Media Shifting and Start Media Scoring</p>
 
                             <div>
                                 <button class="plans_btn">See Plans</button>
@@ -48,10 +48,10 @@
                             </div>
                         </div>
 
-                        <div class="case_studies_stop_sifting" *ngIf="id === 'brand'" data-aos="zoom-in" data-aos-duration="1000">
-                            <h3>Stop Data Shifting and Start</h3>
-                            <p>Harness the power of artifical intelligence and machine learning to identify your most
-                                </p>
+                        <div class="case_studies_stop_sifting" *ngIf="id === 'content'" data-aos="zoom-in"
+                            data-aos-duration="1000">
+                            <h3>Stop Content Shifting and Start Content Scoring</h3>
+                            <p>Stop Content Shifting and Start Content Scoring</p>
 
                             <div>
                                 <button class="plans_btn">See Plans</button>
@@ -62,14 +62,17 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="case_studies_image_container" *ngIf="id === 'heard'" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../../../assets/case-studies.png" alt="case-studies" />
+                <div class="case_studies_image_container" *ngIf="id === 'data'" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <img src="../../../assets/case-studies-data1.png" alt="case-studies" />
                 </div>
-                <div class="case_studies_image_container" *ngIf="id === 'pearson'" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../../../assets/case-studies.png" alt="case-studies" />
+                <div class="case_studies_image_container" *ngIf="id === 'media'" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <img src="../../../assets/case-studies-media1.png" alt="case-studies" />
                 </div>
-                <div class="case_studies_image_container" *ngIf="id === 'brand'" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../../../assets/case-studies.png" alt="case-studies" />
+                <div class="case_studies_image_container" *ngIf="id === 'content'" data-aos="zoom-in"
+                    data-aos-duration="1000">
+                    <img src="../../../assets/case-studies-content1.png" alt="case-studies" />
                 </div>
             </div>
         </div>

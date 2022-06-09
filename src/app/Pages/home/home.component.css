@@ -169,6 +169,18 @@
     }
 }
 
+@media (max-width: 300px) {
+    .data_shifting_text h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .data_shifting_text h3 {
+        font-size: 48px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     /* -------- home ---------  */
